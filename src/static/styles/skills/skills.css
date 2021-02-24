@@ -72,8 +72,8 @@
 }
 
 .skills .skills__cards .skills__card .skills__card-image {
-  font-size: 12vw;
-  margin-top: 5vw;
+  font-size: 9vw;
+  margin-top: 3vw;
 }
 
 @media screen and (max-width: 782px) {
@@ -169,14 +169,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     width: 85%;
     border: 1px solid #dcdcdc;
     -webkit-box-shadow: 0px 0px 5px #dcdcdc;
             box-shadow: 0px 0px 5px #dcdcdc;
     color: black;
-    height: 500px;
+    height: 400px;
     padding: 30px;
     text-align: center;
   }
@@ -189,8 +189,8 @@
     margin-bottom: 30px;
   }
   .skills .skills__cards .skills__card .skills__card-image {
-    font-size: 50vw;
-    margin-top: 5vw;
+    font-size: 30vw;
+    margin-top: 8vw;
   }
 }
 /*# sourceMappingURL=skills.css.map */

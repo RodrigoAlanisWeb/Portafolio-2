@@ -52,11 +52,31 @@ html {
             margin-top: 20px;
         }
         .main__title {
+            margin-top: 30px;
             font-size: 30px;
             font-weight: 300;
+            margin-top: 100px;
         }
         .main__desc {
-            margin-bottom: 20px;
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .main {
+        .main__logo{
+            width: 200px;
+            border-radius: 999px;
+            margin-top: 20px;
+        }
+        .main__title {
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: 300;
+            margin-top: 150px;
+        }
+        .main__desc {
             width: 70%;
         }
     }
