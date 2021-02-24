@@ -1,0 +1,24 @@
+.footer{
+    margin-top: 80px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    .footer__btn {
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 0px 20px;
+        transition: all 300ms;
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer__btn:hover {
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Alanis | Contact</title>
+    <link rel="stylesheet" href="styles/nav/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact/contact.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="/" class="nav__title">
+            Rodrigo
+        </a>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="/contact" class="nav__btn">
+                    Contact Me
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="wrap">
+        <form action="/send" method="POST" class="form">
+            <label class="form__label">
+                Name
+            </label>
+            <input class="form__input" type="text" placeholder="Enter Your Name" name="name">
+            <label class="form__label">
+                Email
+            </label>
+            <input class="form__input" type="email" placeholder="Enter Your Email" name="email">
+            <label class="form__label">
+                Content
+            </label>
+            <textarea class="form__textarea" name="content"></textarea>
+            <button type="submit" class="form__btn">
+                Send
+            </button>
+            <% if (error) { %>
+                Error
+            <% } %>
+        </form>
+    </div>
+</body>
+
+</html>
