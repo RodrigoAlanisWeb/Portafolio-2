@@ -41,7 +41,7 @@ app.post('/send',(req,res) => {
     }
     transporter.sendMail(options,(err,response) => {
         if (err) {
-            console.log(error);
+            console.log(err);
             return res.redirect('/error-emal')
         } else {
             console.log(response);
