@@ -69,7 +69,7 @@ html {
   }
 }
 
-@media screen and (max-height: 640px) {
+@media screen and (max-height: 670px) {
   .main .main__logo {
     width: 200px;
     border-radius: 999px;
